@@ -1,0 +1,7 @@
+{
+    "template": "<style>\n  .aquarium-sensor-table {\n      width: 100%;\n      height: 100%;\n      text-align: left;\n  } \n</style>\n\n<table class=\"aquarium-sensor-table\">\n  <tr>\n    <th colspan=\"2\"; style=\"font-size:20px;text-align: center; color:white\">Water temperatuur</th>\n  </tr>\n  \n  <tr>\n    <td style=\"width: 70px; font-size: 18px; color: #0db9f0\">Sensor 1:</td>\n    <td style=\"width: 80px; font-size: 18px;\">{{itemValue('GenericMQTTThing_AquariumSensorsTemp_1')}}</td>\n  </tr>\n  \n  <tr>\n    <td style=\"width: 70px; font-size: 18px; color: #0db9f0\">Sensor 2:</td>\n    <td style=\"width: 80px; font-size: 18px;\">{{itemValue('GenericMQTTThing_AquariumSensorsTemp_2')}}</td>\n  </tr>\n  \n  <tr>\n    <td style=\"width: 70px; font-size: 18px; color: #0db9f0\">Sensor 3:</td>\n\t\t<td style=\"width: 80px; font-size: 18px;\">{{itemValue('GenericMQTTThing_AquariumSensorsTemp_3')}}</td>\n  </tr>\n</table>",
+    "name": "Temperatuur aquarium",
+    "author": "Ralf Linneman",
+    "description": "3 sensoren weergave temperatuur",
+    "settings": []
+}
